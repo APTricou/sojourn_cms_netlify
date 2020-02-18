@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Sojourn Therapeutic Riding Center
-image: /img/home-jumbotron.jpg
+image: /img/66998685_2005389646231788_8584399208084144128_o.jpg
 heading: Great coffee with a conscience
 subheading: 'Communtiy of '
 mainpitch:
