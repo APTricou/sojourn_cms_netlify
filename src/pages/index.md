@@ -2,23 +2,21 @@
 templateKey: index-page
 title: Sojourn Therapeutic Riding Center
 image: /img/66998685_2005389646231788_8584399208084144128_o.jpg
-heading: Great coffee with a conscience
-subheading: 'Communtiy of '
+heading: Therapeutic Riding
+subheading: 'Accredited Riding Center in Frankfort, IL'
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: What is Sojourn?
+  description: >-
+    Sojourn was founded on community. Our main mission is to use equine assisted
+    activities to proactively contribute to individual's cognitive, physical,
+    emotional, and social well being.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Instruction and lessons are held under supervision of a certified riding
+  instructor with degrees in Special Education. Lessons are tailored to the
+  needs of the individual, often supplemented through student's school IEPs.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
