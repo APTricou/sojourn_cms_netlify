@@ -1,43 +1,25 @@
 ---
 templateKey: 'product-page'
-path: /products
-title: Our Coffee
+path: /services
+title: Our Services
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Building human interactions and well being through equine assisted activities.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Therapeutic riding is the use of horses and equine assisted activities to achieve goals that enhance physical, emotional, cognitive, behavioral and education skills for people who have disabilities. Activities and learning goals are under saddle, or on the back of a horse. Therapeutic riding instruction is under the supervision of a certified riding instructor who holds degrees in Special Education. Instruction is differentiated and specific to the goals and objectives indicated in an Individual Riding Program, often supplemented through student's school IEPs.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We also support a parent or guardian and child preschool prereading program designed to promote and support the five essential components of reading: phonemic awareness, phonics, fluency, vocabulary, and comprehension. Instruction is delivered by Barbara Mulry, who has degrees in Special Education and Reading Specialist. Additionally, parents will recieve information with regard to how to continue enhancing a love of reading between instructional sessions. Sojourn's Miniature horse, Chance, loves coming into the classroom and reading with the children! 
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Equine Assisted Learning promotes life skills through an eperiential learning approach. Horses are encountered on the ground. The focus, whether with individuals, school groups, or other groups, is on life skills related to the following: academic achievement, social/emotional behavior, personal growth and self awareness, self-directed learning, self-assessment, and team building. 
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Sojourn offers professional development for schools and corporations providing a unique way to learn how to proactively support working relationships, and skills that are transferable to the workplace.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

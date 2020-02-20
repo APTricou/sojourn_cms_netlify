@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Sojourn TRC',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Sojourn TRC is a Therapeutic Riding Center focusing on using equine assisted activities to proactively contribute to an individual\'s cognitive, physical, emotional and social well being. Services we provide: Therapeutic riding preschool prereading equine assisted learning corporate retreat learning opportunities .',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
