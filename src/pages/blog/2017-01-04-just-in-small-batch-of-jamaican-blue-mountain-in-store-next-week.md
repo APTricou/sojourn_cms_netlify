@@ -1,9 +1,6 @@
 ---
 templateKey: blog-post
-title: >-
-  Family and friends, please share. Sojourn is proud to introduce another
-  program for pre-K children! Take a Chance on Reading with Mini and Me is sure
-  to be a hit with the Littles!!
+title: Sojourn Pre-K Reading Program
 date: 2020-02-06T15:04:00.000Z
 description: >-
   Family and friends, please share. Sojourn is proud to introduce another
