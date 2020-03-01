@@ -13,4 +13,4 @@ tags:
   - equine assisted learning
   - EAL
 ---
-If interested, Contact Us.
+If interested be sure to reach out to us.
