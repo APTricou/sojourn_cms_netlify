@@ -17,38 +17,30 @@ description: >-
 intro:
   blurbs:
     - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+      text: >-
+        Therapeutic Riding lessons take place in an enclosed arena at a recently
+        built barn in Frankfort, IL. Therapeutic riding provides cognitive,
+        social, physical, and emotional well being. A consistent and
+        constructive environment can lead to amazing strides for any dedicated
+        rider.
+    - image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
+      text: >-
+        We serve all ages, adults to small children. Fully ADA compatible and
+        ABA certified, sojourn is fully capable of accommodating any and all
+        needs. We have a safe and encouraging learning environment built around
+        community.
+    - image: /img/81228296_2301669179937165_2649908028932882432_o.jpg
+      text: >-
+        Looking to help out? Check out our volunteer page. Sojourn is always
+        grateful for volunteers donating their time and service to a great
+        cause.
+    - image: /img/81353017_2309869415783808_3219706878938316800_o.jpg
+      text: >-
+        We believe in the power of the horse. Working with and around these
+        gentle animals fosters great relationships, personal growth, trust and
+        friendship. Want to learn more about Sojourn? Contact us.
+  heading: Empty
+  description: Empty
 main:
   heading: Great coffee with no compromises
   description: >
