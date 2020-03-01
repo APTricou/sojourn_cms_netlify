@@ -1,19 +1,23 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About Us
 ---
+We, at Sojourn use equine assisted activities to proactively contribute to an individual's cognitive, physical, emotional, and social well being. Therapeutic riding benefits individuals in the areas of therapy, education, sport, and leisure. The experiences we have seen at Sojourn has enriched not only our clients lives, but our own.
+
 ### Barbara Mulry
-Special Education and Reading Specialist teacher with a passion for horses.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+![Barbara Mulry Pictured with scootch, one of the therapeutic riding horses](/img/69538708_2250651128372304_3972481196998262784_n.jpg "Barbara Mulry and Scootch")
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Special Education and Reading Specialist teacher with a passion for horses. Barbara started Sojourn in 2009 with two horses, the one pictured above, Scootch, and Blackie, a retired Medieval Times show horse. Since then the fleet has grown to 10 horses, has moved into a brand new facility, and has grown into a wonderful community of people helping people.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Board of Directors
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+![Board of Directors](/img/27628630_1337037036400389_3104974098929179498_o.jpg "Board of Directors")
+
+Of course the ship doesn't sail alone. We have a strong team of individuals dedicated to maintaining and growing the community. Left to Right we have Ken Tsui, Nick, Tim Mulry, ???? , Daina Tricou, John Tricou, and Barbara Mulry.
+
+### Volunteers
+
+![Volunteers](/img/81228296_2301669179937165_2649908028932882432_o.jpg "Volunteers")
+
+Sojourn has plenty of work to go around, and would not be thriving as it is today if not for the volunteers who help with lessons, care for and prep horses, and keep the place running. If you are interested in helping by donating your time, check out our [Volunteer page](/volunteer).
