@@ -30,7 +30,7 @@ intro:
         parents will recieve information with regard to how to continue
         enhancing a love of reading between instructional sessions. Sojourn's
         Miniature horse, Chance, loves coming into the classroom and reading
-        with the children! 
+        with the children!
     - image: /img/74524879_2201332086637542_4945284722537267200_o.jpg
       text: >
         Equine Assisted Learning promotes life skills through an eperiential
@@ -38,7 +38,7 @@ intro:
         whether with individuals, school groups, or other groups, is on life
         skills related to the following: academic achievement, social/emotional
         behavior, personal growth and self awareness, self-directed learning,
-        self-assessment, and team building. 
+        self-assessment, and team building.
     - image: /img/51371513_1763641387073283_7470866616620679168_o.jpg
       text: >
         Sojourn offers professional development for schools and corporations
@@ -59,45 +59,10 @@ main:
   image1:
     alt: A picture of a therapeutic riding lesson in progress
     image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 testimonials:
   - author: Testimonial giver 1
     quote: Testimonial 1
   - author: Testimonial giver 2
     quote: Testimonial 2
-full_image: /img/products-full-width.jpg
-pricing:
-  heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+full_image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
 ---
-
