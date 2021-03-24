@@ -10,8 +10,8 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
-.navbar .navbar-menu
-  box-shadow: none !important
+// .navbar .navbar-menu
+//   box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -29,7 +29,7 @@ $black: #2b2523
     margin-top: 0
 
 // Helper Classes
-.full-width-image-container
+.full-width-image
   width: 100vw
   height: 400px
   position: relative
@@ -42,7 +42,7 @@ $black: #2b2523
   justify-content: center
   align-items: center
 
-.full-width-image
+.full-width-image-fixed
   width: 100vw
   height: 400px
   background-size: cover
@@ -69,6 +69,22 @@ $black: #2b2523
   -webkit-transition: all .15s ease
   transition: all .15s ease
 
+.title-overlay
+  display: flex
+  height: 10em
+  line-height: 1
+  justify-content: space-around
+  align-items: center
+  flex-direction: column
+
+.title-overlay-text
+  font-weight: bold
+  background-color: #0007d6
+  opacity: 0.7
+  color: #fff !important
+  padding: 0.3em 0.5em
+  text-align: center
+
 .margin-top-0
   margin-top: 0 !important
 
@@ -79,9 +95,8 @@ $black: #2b2523
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
-  background-color: blue
+.navbar-brand .navbar-item .logo
+  color: #fff
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent

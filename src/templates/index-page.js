@@ -17,45 +17,18 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image-fixed"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
       }}
     >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: '#0007d6 0.5rem 0px 0px, #0007d6 -0.5rem 0px 0px',
-            backgroundColor: '#0007d6',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
+      <div className="title-overlay">
+        <h1 className="title-overlay-text is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
           {title}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow: '#0007d6 0.5rem 0px 0px, #0007d6 -0.5rem 0px 0px',
-            backgroundColor: '#0007d6',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
+        <h3 className="title-overlay-text is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
           {subheading}
         </h3>
       </div>

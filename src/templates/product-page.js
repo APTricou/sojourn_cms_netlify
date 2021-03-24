@@ -16,26 +16,20 @@ export const ProductPageTemplate = ({
   testimonials,
   fullImage,
 }) => (
-  <div className="content">
+  <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image-fixed"
       style={{
         backgroundImage: `url(${
           image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
       }}
     >
-      <h2
-        className="has-text-weight-bold is-size-1"
-        style={{
-          boxShadow: '0.5rem 0 0 #0007d6, -0.5rem 0 0 #0007d6',
-          backgroundColor: '#0007d6',
-          color: 'white',
-          padding: '1rem',
-        }}
-      >
-        {title}
-      </h2>
+      <div className="title-overlay">
+        <h1 className="title-overlay-text is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
+          {title}
+        </h1>
+      </div>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -70,7 +64,7 @@ export const ProductPageTemplate = ({
               </div>
               <Testimonials testimonials={testimonials} />
               <div
-                className="full-width-image-container"
+                className="full-width-image"
                 style={{
                   backgroundImage: `url(${
                     fullImage.childImageSharp
