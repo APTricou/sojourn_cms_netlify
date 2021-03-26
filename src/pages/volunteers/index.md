@@ -13,6 +13,7 @@ leftlist:
   - text: gardening
   - text: fundraising
   - text: photography
+  - text: event coordination
 maintext: >-
   Sojourn offers a wide var​iety of volunteer opportunities. 
 
