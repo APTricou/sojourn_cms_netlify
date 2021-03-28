@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: services-page
 title: Our Services
 image: /img/86389023_2399294000174682_5562015302956351488_o.jpg
 heading: Building human interactions and well being through equine assisted activities.

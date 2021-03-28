@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ProductPageTemplate } from '../../templates/product-page';
+import { ServicesPageTemplate } from '../../templates/services-page';
 
-const ProductPagePreview = ({ entry, getAsset }) => {
+const ServicesPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : [];
 
@@ -10,7 +10,7 @@ const ProductPagePreview = ({ entry, getAsset }) => {
   const testimonials = entryTestimonials ? entryTestimonials.toJS() : [];
 
   return (
-    <ProductPageTemplate
+    <ServicesPageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
@@ -38,11 +38,11 @@ const ProductPagePreview = ({ entry, getAsset }) => {
   );
 };
 
-ProductPagePreview.propTypes = {
+ServicesPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 };
 
-export default ProductPagePreview;
+export default ServicesPagePreview;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import github from '../img/github-icon.svg';
+import facebook from '../img/social/facebook.svg';
 import logo from '../img/logoinvert.png';
 
 const Navbar = class extends React.Component {
@@ -38,7 +38,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Sojourn Home" style={{ width: '88px' }} />
+              <img src={logo} alt="Sojourn Home" style={{ width: '60px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -74,6 +74,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/volunteers">
                 Volunteer
               </Link>
+              <Link className="navbar-item" to="/directions">
+                Directions
+              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -83,7 +86,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={facebook} alt="facebook" />
                 </span>
               </a>
             </div>
