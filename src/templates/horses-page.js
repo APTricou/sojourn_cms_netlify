@@ -2,11 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
-
+export const HorsesPageTemplate = ({ title, subtitle }) => {
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -16,7 +13,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <h4>{subtitle}</h4>
             </div>
           </div>
         </div>
@@ -25,38 +22,36 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   );
 };
 
-AboutPageTemplate.propTypes = {
+HorsesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  subtitle: PropTypes.string,
 };
 
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+const HorsesPage = ({ data }) => {
+  const { markdownRemark: md } = data;
 
   return (
     <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+      <HorsesPageTemplate
+        title={md.frontmatter.title}
+        subtitle={md.frontmatter.subtitle}
       />
     </Layout>
   );
 };
 
-AboutPage.propTypes = {
+HorsesPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default HorsesPage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const horsesPageQuery = graphql`
+  query HorsesPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        subtitle
       }
     }
   }

@@ -77,11 +77,20 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/directions">
                 Directions
               </Link>
+              <Link className="navbar-item" to="/donate">
+                Donate
+              </Link>
+              <Link className="navbar-item" to="/horses">
+                Horses
+              </Link>
+              <Link className="navbar-item" to="/calendar">
+                Calendar
+              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://www.facebook.com/SojournTherapeuticRidingCenter/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
