@@ -12,7 +12,7 @@ const VolunteersPagePreview = ({ entry, getAsset }) => {
         title={data.title}
         maintext={data.maintext}
         lefttitle={data.lefttitle}
-        leftlist={data.items}
+        leftlist={data.items || { items: [] }}
       />
     );
   } else {
