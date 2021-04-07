@@ -1,26 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { VolunteersPageTemplate } from '../../templates/volunteers-page';
+import { VolunteerPageTemplate } from '../../templates/volunteers-page';
 
 const VolunteersPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
-  const blurbs = entryBlurbs ? entryBlurbs.toJS() : [];
+  const data = entry.getIn(['data']).toJS();
 
-  const entryTestimonials = entry.getIn(['data', 'testimonials']);
-  const testimonials = entryTestimonials ? entryTestimonials.toJS() : [];
-
-  return (
-    <VolunteersPageTemplate
-      image={entry.getIn(['data', 'image'])}
-      title={entry.getIn(['data', 'title'])}
-      maintext={entry.getIn(['data', 'maintext'])}
-      lefttitle={entry.getIn(['data', 'lefttitle'])}
-      leftlist={{ items }}
-    />
-  );
+  if (data) {
+    return (
+      <VolunteerPageTemplate
+        image={data.image}
+        title={data.title}
+        maintext={data.maintext}
+        lefttitle={data.lefttitle}
+        leftlist={data.items}
+      />
+    );
+  } else {
+    return <div>Loading...</div>;
+  }
 };
 
-ProductPagePreview.propTypes = {
+VolunteersPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
