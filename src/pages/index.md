@@ -1,15 +1,16 @@
 ---
 templateKey: index-page
-title: Sojourn Therapeutic Riding Center
-image: /img/66998685_2005389646231788_8584399208084144128_o.jpg
+title: 'Sojourn Therapeutic Riding Center, NFP'
+image: /img/20210118_091911.jpg
 heading: Therapeutic Riding
 subheading: 'Accredited Riding Center in Frankfort, IL'
 mainpitch:
   title: What is Sojourn?
   description: >-
-    Sojourn was founded on community. Our main mission is to use equine assisted
-    activities to proactively contribute to individual's cognitive, physical,
-    emotional, and social well being.
+    Sojourn was founded on community. Sojourn's mission is to use equine
+    assisted activities to proactively contribute to individual's cognitive,
+    physical, emotional, and social well being. Sojourn TRC's goal is to Enhance
+    Lives Through the Power of the Horse.
 description: >-
   Instruction and lessons are held under supervision of a certified riding
   instructor with degrees in Special Education. Lessons are tailored to the
@@ -58,3 +59,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
