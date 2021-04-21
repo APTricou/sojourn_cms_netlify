@@ -53,10 +53,10 @@ main:
   image1:
     alt: A picture of a therapeutic riding lesson in progress
     image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
-testimonials:
-  - author: Testimonial giver 1
-    quote: Testimonial 1
-  - author: Testimonial giver 2
-    quote: Testimonial 2
+# testimonials:
+#   - author: Testimonial giver 1
+#     quote: Testimonial 1
+#   - author: Testimonial giver 2
+#     quote: Testimonial 2
 full_image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
 ---

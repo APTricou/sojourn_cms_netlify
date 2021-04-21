@@ -14,7 +14,6 @@ const ServicesPagePreview = ({ entry }) => {
       intro={data.intro || { blurbs: [] }}
       main={data.main}
       fullImage={data.fullImage}
-      testimonials={data.testimonials || []}
     />
   );
 };

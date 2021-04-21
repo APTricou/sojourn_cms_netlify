@@ -84,8 +84,8 @@ DirectionsPage.propTypes = {
 export default DirectionsPage;
 
 export const directionsPageQuery = graphql`
-  query DirectionsPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query DirectionsPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "directions-page" } }) {
       frontmatter {
         title
         subtitle

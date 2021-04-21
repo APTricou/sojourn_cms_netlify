@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
-import Testimonials from '../components/Testimonials';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ServicesPageTemplate = ({
@@ -13,7 +12,6 @@ export const ServicesPageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
   fullImage,
 }) => (
   <div>
@@ -62,22 +60,21 @@ export const ServicesPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div
+      className="full-width-image-fixed"
+      style={{
+        backgroundImage: `url(${
+          fullImage.childImageSharp
+            ? fullImage.childImageSharp.fluid.src
+            : fullImage
+        })`,
+      }}
+    />
   </div>
 );
 
@@ -96,7 +93,6 @@ ServicesPageTemplate.propTypes = {
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
-  testimonials: PropTypes.array,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
@@ -112,7 +108,6 @@ const ServicesPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
-        testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
       />
     </Layout>
@@ -130,8 +125,8 @@ ServicesPage.propTypes = {
 export default ServicesPage;
 
 export const servicesPageQuery = graphql`
-  query ServicesPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query ServicesPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
       frontmatter {
         title
         image {
@@ -170,10 +165,6 @@ export const servicesPageQuery = graphql`
               }
             }
           }
-        }
-        testimonials {
-          author
-          quote
         }
         full_image {
           childImageSharp {
