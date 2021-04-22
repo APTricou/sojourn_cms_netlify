@@ -56,8 +56,11 @@ export const DirectionsPageTemplate = ({
 
 DirectionsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  subtitle: PropTypes.string.isRequired,
+  address: PropTypes.object,
+  contact: PropTypes.object,
+  hours: PropTypes.object,
+  maps: PropTypes.object,
 };
 
 const DirectionsPage = ({ data }) => {
