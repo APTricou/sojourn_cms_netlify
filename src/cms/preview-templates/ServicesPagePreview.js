@@ -4,7 +4,7 @@ import { ServicesPageTemplate } from '../../templates/services-page';
 
 const ServicesPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS();
-
+  console.log(data);
   return (
     <ServicesPageTemplate
       image={data.image}
@@ -13,7 +13,7 @@ const ServicesPagePreview = ({ entry }) => {
       description={data.description}
       intro={data.intro || { blurbs: [] }}
       main={data.main}
-      fullImage={data.fullImage}
+      fullImage={data.full_image}
     />
   );
 };
