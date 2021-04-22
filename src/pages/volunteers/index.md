@@ -28,4 +28,6 @@ maintext: >-
   While no experience is necessary there is an orientation given onsite for the safety of our riders.
 
   Reach out to us today to find out how you can make a difference. All inquiries go to info@sojourntrc.org.
+handbook: /img/Volunteer_Handbook_jan2021.pdf
+release: /img/Volunteer_Release.pdf
 ---

@@ -13,6 +13,8 @@ const VolunteersPagePreview = ({ entry, getAsset }) => {
         maintext={data.maintext}
         lefttitle={data.lefttitle}
         leftlist={data.items || { items: [] }}
+        handbook={data.handbook}
+        release={data.release}
       />
     );
   } else {

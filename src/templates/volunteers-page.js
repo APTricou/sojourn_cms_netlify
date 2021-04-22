@@ -12,6 +12,8 @@ export const VolunteerPageTemplate = ({
   maintext,
   lefttitle,
   leftlist,
+  handbook,
+  release,
 }) => {
   return (
     <div>
@@ -64,19 +66,13 @@ export const VolunteerPageTemplate = ({
                   </a>
                 </div>
                 <div className="column has-text-centered is-one-third">
-                  <a
-                    href="/docs/Volunteer_Handbook_jan2021.pdf"
-                    download="Sojourn_Volunteer_Handbook.pdf"
-                  >
+                  <a href={handbook} download="Sojourn_Volunteer_Handbook.pdf">
                     <img src={pdfdownload} alt="pdf download" />
                     <h5>Download Volunteer Handbook</h5>
                   </a>
                 </div>
                 <div className="column has-text-centered is-one-third">
-                  <a
-                    href="/docs/Volunteer_Release.pdf"
-                    download="Sojourn_Volunteer_Release.pdf"
-                  >
+                  <a href={release} download="Sojourn_Volunteer_Release.pdf">
                     <img src={pdfdownload} alt="pdf download" />
                     <h5>Download Release Form</h5>
                   </a>
@@ -96,6 +92,8 @@ VolunteerPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   maintext: PropTypes.string.isRequired,
   lefttitle: PropTypes.string.isRequired,
+  handbook: PropTypes.string.isRequired,
+  release: PropTypes.string.isRequired,
 };
 
 const VolunteersPage = ({ data }) => {
@@ -109,6 +107,8 @@ const VolunteersPage = ({ data }) => {
         maintext={md.frontmatter.maintext}
         lefttitle={md.frontmatter.lefttitle}
         leftlist={md.frontmatter.leftlist}
+        handbook={md.frontmatter.handbook}
+        release={md.frontmatter.release}
       />
     </Layout>
   );
@@ -138,6 +138,8 @@ export const volunteerPageQuery = graphql`
         leftlist {
           text
         }
+        handbook
+        release
       }
     }
   }

@@ -4,7 +4,6 @@ import { ServicesPageTemplate } from '../../templates/services-page';
 
 const ServicesPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS();
-  console.log(data);
   return (
     <ServicesPageTemplate
       image={data.image}
