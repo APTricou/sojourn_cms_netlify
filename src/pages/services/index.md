@@ -1,7 +1,7 @@
 ---
 templateKey: services-page
 title: Our Services
-image: /img/86389023_2399294000174682_5562015302956351488_o.jpg
+image: /img/DainaJGypsy.jpg
 heading: Building human interactions and well being through equine assisted activities.
 description: >-
   Here are a few of our provided services. Sojourn is capable of conforming to
@@ -53,10 +53,6 @@ main:
   image1:
     alt: A picture of a therapeutic riding lesson in progress
     image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
-# testimonials:
-#   - author: Testimonial giver 1
-#     quote: Testimonial 1
-#   - author: Testimonial giver 2
-#     quote: Testimonial 2
 full_image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
 ---
+
