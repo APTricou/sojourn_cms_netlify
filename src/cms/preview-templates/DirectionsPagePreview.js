@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { DirectionsPageTemplate } from '../../templates/directions-page';
 
-const DirectionsPagePreview = ({ entry, getAsset }) => {
+const DirectionsPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS();
-
+  console.log(data);
   if (data) {
     return (
       <DirectionsPageTemplate
@@ -25,7 +25,6 @@ DirectionsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
-  getAsset: PropTypes.func,
 };
 
 export default DirectionsPagePreview;
