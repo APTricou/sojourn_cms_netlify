@@ -12,14 +12,12 @@ Special Education and Reading Specialist teacher with a passion for horses. Barb
 
 ### Board of Directors
 
-![Board of Directors]()
-
 Of course the ship doesn't sail alone. We have a strong team of individuals dedicated to maintaining and growing the community that includes:
 
 Barbara Mulry, President; Tim Mulry, Treasurer; Daina Tricou, Member; John Tricou, Member; Patsey Reilly, Secretary
 
 ### Volunteers
 
-![Volunteers](/img/81228296_2301669179937165_2649908028932882432_o.jpg 'Volunteers')
+![Volunteers](/img/81228296_2301669179937165_2649908028932882432_o.jpg 'Volunteers' "Volunteers are the backbone of Sojourn TRC! Please consider volunteering!")
 
-Volunteers are the backbone of Sojourn TRC! Please consider volunteering! Sojourn has plenty of work to go around, and would not be thriving as it is today if not for the volunteers who help with lessons, care for and prep horses, and keep the place running. If you are interested in helping by donating your time, check out our [Volunteer page](/volunteers).
+Sojourn has plenty of work to go around, and would not be thriving as it is today if not for the volunteers who help with lessons, care for and prep horses, and keep the place running. If you are interested in helping by donating your time, check out our [Volunteer page](/volunteers).
