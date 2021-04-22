@@ -107,8 +107,8 @@ const VolunteersPage = ({ data }) => {
         maintext={md.frontmatter.maintext}
         lefttitle={md.frontmatter.lefttitle}
         leftlist={md.frontmatter.leftlist}
-        handbook={md.frontmatter.handbook}
-        release={md.frontmatter.release}
+        handbook="/img/Volunteer_Handbook.pdf"
+        release="/img/Volunteer_Release.pdf"
       />
     </Layout>
   );
@@ -138,8 +138,6 @@ export const volunteerPageQuery = graphql`
         leftlist {
           text
         }
-        handbook
-        release
       }
     }
   }
