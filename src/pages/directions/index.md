@@ -12,10 +12,10 @@ hours:
   monthrufri: 9am - 5pm
   satsun: 8am - 6pm
 maps:
-  close:
+  wide:
     alt: wider area map
     image: /img/Wide-map.jpg
-  wide:
+  close:
     alt: close up map
     image: /img/tight-map.jpg
 ---
