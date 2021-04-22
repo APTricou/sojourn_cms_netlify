@@ -2,8 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import HorsesGrid from '../components/HorsesGrid';
 
-export const HorsesPageTemplate = ({ title, subtitle }) => {
+export const HorsesPageTemplate = ({
+  title,
+  aboutTitle,
+  aboutBlurb,
+  horses,
+}) => {
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -13,8 +19,14 @@ export const HorsesPageTemplate = ({ title, subtitle }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <h4>{subtitle}</h4>
             </div>
+            <div className="content">
+              <h3 className="title is-size-4 has-text-weight-bold is-bold-light">
+                {aboutTitle}
+              </h3>
+              <p>{aboutBlurb}</p>
+            </div>
+            <HorsesGrid gridItems={horses} />
           </div>
         </div>
       </div>
@@ -24,17 +36,21 @@ export const HorsesPageTemplate = ({ title, subtitle }) => {
 
 HorsesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string,
+  aboutTitle: PropTypes.string.isRequired,
+  aboutBlurb: PropTypes.string.isRequired,
+  horses: PropTypes.array.isRequired,
 };
 
 const HorsesPage = ({ data }) => {
-  const { markdownRemark: md } = data;
+  const { frontmatter: fm } = data.markdownRemark;
 
   return (
     <Layout>
       <HorsesPageTemplate
-        title={md.frontmatter.title}
-        subtitle={md.frontmatter.subtitle}
+        title={fm.title}
+        aboutTitle={fm.aboutTitle}
+        aboutBlurb={fm.aboutBlurb}
+        horses={fm.horses}
       />
     </Layout>
   );
@@ -51,7 +67,18 @@ export const horsesPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        subtitle
+        aboutTitle
+        aboutBlurb
+        horses {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 100, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          text
+        }
       }
     }
   }

@@ -27,5 +27,5 @@ maintext: >-
 
   While no experience is necessary there is an orientation given onsite for the safety of our riders.
 
-  Reach out to us today to find out how you can make a difference. All inquiries go to Barbara Mulry at bmulry@gmail.com.
+  Reach out to us today to find out how you can make a difference. All inquiries go to info@sojourntrc.org.
 ---

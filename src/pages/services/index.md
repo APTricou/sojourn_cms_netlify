@@ -45,7 +45,7 @@ intro:
         providing a unique way to learn how to proactively support working
         relationships, and skills that are transferable to the workplace.
 main:
-  heading: Testimonials
+  heading: We'd Love to Hear From You
   description: >
     We hold our experience to a high standard at Sojourn. We want you to get the
     most out of the experience. If you would like to learn more about our

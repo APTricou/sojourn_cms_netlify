@@ -32,8 +32,8 @@ export const ServicesPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
-            <div className="column is-7 is-offset-1">
+          <div className="columns is-centered">
+            <div className="column is-7 has-text-centered">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
               <p>{description}</p>
             </div>
@@ -41,7 +41,7 @@ export const ServicesPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <Features gridItems={intro.blurbs} />
-              <div className="columns">
+              <div className="columns is-centered has-text-centered">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
