@@ -38,10 +38,9 @@ intro:
         Therapeutic Riding Instructor.
     - image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
       text: >-
-        We serve all ages, adults to small children. Fully ADA compatible and
-        ABA certified, sojourn is fully capable of accommodating any and all
-        needs. We have a safe and encouraging learning environment built around
-        community.
+        Sojourn TRC serves all ages, from children as young as 2 and adults to
+        no limit! Sojourn adheres to ADA standards and is certified through PATH
+        International (Professional Association of Therapeutic Horsemanship). 
     - image: /img/81228296_2301669179937165_2649908028932882432_o.jpg
       text: >-
         Looking to help out? Check out our volunteer page. Sojourn is always
