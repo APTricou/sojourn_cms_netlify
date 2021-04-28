@@ -8,13 +8,14 @@ mainpitch:
   title: What is Sojourn?
   description: >-
     Sojourn was founded on community. Sojourn's mission is to use equine
-    assisted activities to proactively contribute to individual's cognitive,
+    assisted activities to proactively contribute to an individual's cognitive,
     physical, emotional, and social well being. Sojourn TRC's goal is to Enhance
     Lives Through the Power of the Horse.
 description: >-
   Instruction and lessons are held under supervision of a certified riding
-  instructor with degrees in Special Education. Lessons are tailored to the
-  needs of the individual, often supplemented through student's school IEPs.
+  instructor with degrees in Special Education and Reading.. Lessons are
+  tailored to the needs of the individual, often supplemented through student's
+  school IEPs.
 intro:
   blurbs:
     - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
@@ -40,6 +41,5 @@ intro:
         We believe in the power of the horse. Working with and around these
         gentle animals fosters great relationships, personal growth, trust and
         friendship. Want to learn more about Sojourn? Contact us.
-  heading: Empty
-  description: Empty
 ---
+
