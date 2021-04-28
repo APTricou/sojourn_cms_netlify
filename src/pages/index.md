@@ -20,11 +20,22 @@ intro:
   blurbs:
     - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
       text: >-
-        Therapeutic Riding lessons take place in an enclosed arena at a recently
-        built barn in Frankfort, IL. Therapeutic riding provides cognitive,
-        social, physical, and emotional well being. A consistent and
-        constructive environment can lead to amazing strides for any dedicated
-        rider.
+        Therapeutic Horseback Riding is the use of horses in equine-assisted
+        activities. Horseback riding
+
+        provides many benefits. The movement of the horse activates a variety of
+        sensory imputs including:
+
+        vestibular, proprioceptive, tactile, visual, auditory, and olfactory!
+        Horseback riding helps with balance,
+
+        strength, postural control, speech/communication and cognition. The
+        Therapeutic Horseback Riding
+
+        program is supervised by an Illinois State Board Learning Behavior
+        Specialist and PATH Certified
+
+        Therapeutic Riding Instructor.
     - image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
       text: >-
         We serve all ages, adults to small children. Fully ADA compatible and
