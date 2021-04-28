@@ -48,8 +48,9 @@ intro:
         cause.
     - image: /img/81353017_2309869415783808_3219706878938316800_o.jpg
       text: >-
-        We believe in the power of the horse. Working with and around these
-        gentle animals fosters great relationships, personal growth, trust and
-        friendship. Want to learn more about Sojourn? Contact us.
+        Sojourn TRC believes in the power of the horse. Working with and around
+        these sentient beings fosters great relationships, personal growth,
+        trust and friendship. To learn more about Sojourn TRC and how we might
+        benefit you or a loved one, please contact us.
 ---
 
