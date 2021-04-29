@@ -2,6 +2,7 @@
 templateKey: about-page
 title: About Us
 ---
+
 We, at Sojourn use equine assisted activities to proactively contribute to an individual's cognitive, physical, emotional, and social well being. Therapeutic riding benefits individuals in the areas of therapy, education, sport, and leisure. The experiences we have seen at Sojourn has enriched not only our clients lives, but our own.
 
 ### Barbara Mulry
@@ -18,6 +19,6 @@ Barbara Mulry, President; Tim Mulry, Treasurer; Daina Tricou, Member; John Trico
 
 ### Volunteers
 
-![Volunteers](/img/81228296_2301669179937165_2649908028932882432_o.jpg 'Volunteers' "Volunteers are the backbone of Sojourn TRC! Please consider volunteering!")
+![Volunteers](/img/81228296_2301669179937165_2649908028932882432_o.jpg 'Volunteers')
 
 Sojourn has plenty of work to go around, and would not be thriving as it is today if not for the volunteers who help with lessons, care for and prep horses, and keep the place running. If you are interested in helping by donating your time, check out our [Volunteer page](/volunteers).

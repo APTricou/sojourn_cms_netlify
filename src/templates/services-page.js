@@ -147,8 +147,6 @@ export const servicesPageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
         main {
           heading
