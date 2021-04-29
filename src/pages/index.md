@@ -20,11 +20,7 @@ intro:
   blurbs:
     - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
       text: >-
-        Therapeutic Horseback Riding is the use of horses in equine-assisted
-        activities. Horseback riding provides many benefits. The movement of the horse activates a variety of
-        sensory imputs including: vestibular, proprioceptive, tactile, visual, auditory, and olfactory!
-        Horseback riding helps with balance, strength, postural control, speech/communication and cognition. The Therapeutic Horseback Riding program is supervised by an Illinois State Board Learning Behavior
-        Specialist and PATH Certified Therapeutic Riding Instructor.
+        Therapeutic Horseback Riding is the use of horses in equine-assisted activities. Horseback riding provides many benefits. The movement of the horse activates a variety of sensory imputs including: vestibular, proprioceptive, tactile, visual, auditory, and olfactory! Horseback riding helps with balance, strength, postural control, speech/communication and cognition. The Therapeutic Horseback Riding program is supervised by an Illinois State Board Learning Behavior Specialist and PATH Certified Therapeutic Riding Instructor.
     - image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
       text: >-
         Sojourn TRC serves all ages, from children as young as 2 and adults to
