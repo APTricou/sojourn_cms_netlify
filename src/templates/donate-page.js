@@ -46,7 +46,7 @@ export const DonatePageTemplate = ({
               <a href={link4}>Amazon Smile</a>
             </p>
             <p>5. {item5}</p>
-            <a href={link5} target="_blank">
+            <a href={link5} target="_blank" rel="noopener noreferrer">
               <img
                 src={ppbutton}
                 alt="Paypal Donate Button"

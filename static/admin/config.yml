@@ -213,6 +213,20 @@ collections:
                   },
                 ],
             }
+      - file: 'src/pages/calendar/index.md'
+        label: 'Calendar Page'
+        name: 'calendar'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'calendar-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: blurb, name: calendarBlurb, widget: string }
+          - { label: Picture, name: calendarPicture, widget: picture }
+          - { label: Link, name: calendarLink, widget: string }
       # - file: 'src/pages/services/index.md'
       # - file: 'src/pages/services/index.md'
       # - file: 'src/pages/services/index.md'

@@ -6,8 +6,6 @@ aboutBlurb: >-
   Our horses are chosen specifically for their gentle and freindly nature and they are well trained to handle a wide variety of riders.
 
   We also have boarded horses on site. If interested in boarding your horse at our facility, contact us.
-
-  We have currently XXX stall available for boarding.
 horses:
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
     text: Scootch
@@ -22,15 +20,13 @@ horses:
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
     text: Chance
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: other mini
+    text: Remi
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Scootch4
+    text: Blue
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Scootch5
+    text: Odin
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Scootch6
+    text: Hook
   - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Scootch7
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Scootch8
+    text: Britney
 ---
