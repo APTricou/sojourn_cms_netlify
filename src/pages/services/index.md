@@ -8,7 +8,7 @@ description: >-
   approach to instruction that meets each rider's individual needs.
 intro:
   blurbs:
-    - image: /img/86389023_2399294000174682_5562015302956351488_o.jpg
+    - image: /img/Dunc and Amelie.jpg
       text: >
         Therapeutic Horseback Riding is the use of horses in equine-assisted
         activities. Horseback riding provides many benefits. The movement of the
