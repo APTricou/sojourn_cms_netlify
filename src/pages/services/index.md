@@ -30,7 +30,7 @@ intro:
         Range of Writing. The program is designed to work within a small group
         setting and is directed by an Illinois State Board Licensed Reading
         Specialist. 
-    - image: /img/74524879_2201332086637542_4945284722537267200_o.jpg
+    - image: /img/EAL Self reflections.jpg
       text: >-
         Equine Assisted Learning/EAL promotes life skills through an
         experiential learning approach. This approach uses horses on the ground.
