@@ -39,7 +39,7 @@ intro:
     - image: /img/Blue_and_Bev.jpg
       text: >-
         Sojourn TRC believes in the power of the horse. Working with and around
-        these sentient beings fosters deep relationships, personal growth,
+        these sentient beings cultivates deep relationships, personal growth,
         trust, and friendship. To learn more about Sojourn TRC and how we might
         benefit you or a loved one, please contact us.
 ---
