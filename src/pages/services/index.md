@@ -1,6 +1,6 @@
 ---
 templateKey: services-page
-title: 'Sojourn TRC:  Services '
+title: 'Sojourn TRC:  Services Provided '
 image: /img/DainaJGypsy.jpg
 heading: Building human interactions and well being through equine assisted activities.
 description: >-
