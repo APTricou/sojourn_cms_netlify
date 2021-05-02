@@ -7,7 +7,7 @@ subheading: 'Accredited Riding Center in Frankfort, IL'
 mainpitch:
   title: Who is Sojourn?
   description: >-
-    Sojourn was founded on community. Sojourn's mission is to use equine
+    Sojourn TRC was founded on community. Sojourn's mission is to use equine
     assisted activities to proactively contribute to an individual's cognitive,
     physical, emotional, and social well being. Sojourn TRC's goal is to Enhance
     Lives Through the Power of the Horse.
@@ -35,7 +35,7 @@ intro:
       text: >-
         Looking to help out? Check out our volunteer page. Sojourn is always
         grateful for volunteers donating their time and service to a great
-        cause.
+        cause. Volunteers are the backbone of our programs!
     - image: /img/Blue_and_Bev.jpg
       text: >-
         Sojourn TRC believes in the power of the horse. Working with and around
