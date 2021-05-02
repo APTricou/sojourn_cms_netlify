@@ -50,9 +50,9 @@ intro:
 main:
   heading: We'd Love to Hear From You
   description: >
-    We hold our experience to a high standard at Sojourn. We want you to get the
-    most out of the experience. If you would like to learn more about our
-    services, you can Contact Us.
+    Sojourn Therapeutic Riding Center is confident in our ability to enhance
+    lives through the power of the horse. Please contact us to schedule a visit
+    to meet our outstanding horses and learn more about our programs. 
   image1:
     alt: A picture of a therapeutic riding lesson in progress
     image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
