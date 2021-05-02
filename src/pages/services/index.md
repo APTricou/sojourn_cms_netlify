@@ -10,38 +10,36 @@ intro:
   blurbs:
     - image: /img/86389023_2399294000174682_5562015302956351488_o.jpg
       text: >
-        Therapeutic riding is the use of horses and equine assisted activities
-        to achieve goals that enhance physical, emotional, cognitive, behavioral
-        and education skills for people who have disabilities. Activities and
-        learning goals are under saddle, or on the back of a horse. Therapeutic
-        riding instruction is under the supervision of a certified riding
-        instructor who holds degrees in Special Education. Instruction is
-        differentiated and specific to the goals and objectives indicated in an
-        Individual Riding Program, often supplemented through student's school
-        IEPs.
+        Therapeutic Horseback Riding is the use of horses in equine-assisted
+        activities. Horseback riding provides many benefits. The movement of the
+        horse activates a variety of sensory imputs including: vestibular,
+        proprioceptive, tactile, visual, auditory, and olfactory! Horseback
+        riding helps with balance, strength, postural control,
+        speech/communication and cognition. The Therapeutic Horseback Riding
+        program is supervised by an Illinois State Board Learning Behavior
+        Specialist and PATH Certified Therapeutic Riding Instructor.
     - image: /img/Reading with Chance.jpeg
       text: >-
-        Sojourn TRC offers reading instruction with the help of our eager fleet
-        of horses. Reading is taught by a state of Illinois licensed Reading
-        Specialist who is qualified to test and instruct students with varying
-        challenges in reading from Pre-K through adult. There are several
-        components of reading instruction that include: Phonemic Awareness,
-        Phonics, Vocabulary, Fluency, and Text Comprehension, all of which
-        involves Close Reading Strategies. Youngest students enjoy our Take a
-        Chance on Reading with our miniature horse, Chance. Older students
-        practice their strategies and read with their assigned horse.
-        Additionally, older students participate in discussions concerning the
-        author's purpose siting evidence from text. Reading is not always an
-        enjoyable task for students who struggle. Our horses, we hope, will
-        enhance students' desire to read.
+        Take a Chance on Reading and Writing! Sojourn TRC offers an English
+        Language Arts program that follows the Common Core and Illinois State
+        Reading and Language Arts standards. Anchor Standards for Reading and
+        Language Arts include: Key Ideas and Details, Craft and Structure,
+        Integration of Knowledge and Ideas, and Text Complexity. Anchor
+        Standards for Writing include: Text Types and Purposes, Production and
+        Distribution of Writing, Research to Build and Present Knowledge, and
+        Range of Writing. The program is designed to work within a small group
+        setting and is directed by an Illinois State Board Licensed Reading
+        Specialist. 
     - image: /img/74524879_2201332086637542_4945284722537267200_o.jpg
-      text: >
-        Equine Assisted Learning promotes life skills through an eperiential
-        learning approach. Horses are encountered on the ground. The focus,
-        whether with individuals, school groups, or other groups, is on life
-        skills related to the following: academic achievement, social/emotional
-        behavior, personal growth and self awareness, self-directed learning,
-        self-assessment, and team building.
+      text: >-
+        Equine Assisted Learning/EAL promotes life skills through an
+        experiential learning approach. This approach uses horses on the ground.
+        The focus is on life skills that can be related to: academic
+        achievement, social/emotional behavior (learning situational cues
+        regarding expected and unexpected behaviors), personal growth,
+        self-awareness, self-directed learning, self-assessment, and team
+        building. The EAL program is supervised by an Illinois State Board
+        Licensed Learning Behavior Specialist. 
     - image: /img/51371513_1763641387073283_7470866616620679168_o.jpg
       text: >
         Sojourn offers professional development for schools and corporations
