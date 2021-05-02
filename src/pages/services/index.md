@@ -40,7 +40,7 @@ intro:
         self-awareness, self-directed learning, self-assessment, and team
         building. The EAL program is supervised by an Illinois State Board
         Licensed Learning Behavior Specialist. 
-    - image: /img/51371513_1763641387073283_7470866616620679168_o.jpg
+    - image: /img/Carriage Britt.jpg
       text: >
         Therapeutic Carriage Driving provides an alternative experience that may
         support individuals who are unable to ride due to weight, fatigue, fear
