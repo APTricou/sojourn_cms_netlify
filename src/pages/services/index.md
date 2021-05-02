@@ -42,9 +42,14 @@ intro:
         Licensed Learning Behavior Specialist. 
     - image: /img/51371513_1763641387073283_7470866616620679168_o.jpg
       text: >
-        Sojourn offers professional development for schools and corporations
-        providing a unique way to learn how to proactively support working
-        relationships, and skills that are transferable to the workplace.
+        Therapeutic Carriage Driving provides an alternative experience that may
+        support individuals who are unable to ride due to weight, fatigue, fear
+        of height, inability to sit astride a horse, allergies, asthma, and
+        other issues. Additionally, carriage driving may provide its own, unique
+        sensory experience. Participants focus on safety, horses, harnessing,
+        and driving. Teamwork is an essential part of the entire driving
+        experience. Therapeutic Driving is headed by PATH Certified Driving
+        instructors. 
 main:
   heading: We'd Love to Hear From You
   description: >
