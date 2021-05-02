@@ -2,25 +2,30 @@
 templateKey: index-page
 title: 'Sojourn Therapeutic Riding Center, NFP'
 image: /img/20210118_091911.jpg
-heading: Therapeutic Riding
+heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
 mainpitch:
-  title: What is Sojourn?
+  title: Who is Sojourn?
   description: >-
     Sojourn was founded on community. Sojourn's mission is to use equine
     assisted activities to proactively contribute to an individual's cognitive,
     physical, emotional, and social well being. Sojourn TRC's goal is to Enhance
     Lives Through the Power of the Horse.
 description: >-
-  Instruction and lessons are held under supervision of a certified riding
-  instructor with degrees in Special Education and Reading.. Lessons are
-  tailored to the needs of the individual, often supplemented through student's
-  school IEPs.
+  At Sojourn TRC, instruction and lessons are supervised by a State of Illinois
+  licensed Special Education Teacher/Reading Specialist who is a Certified
+  Therapeutic Riding Instructor (CTRI).  Lessons are differentiated in order to
+  meet the unique goals and objectives presented by each rider.
 intro:
   blurbs:
     - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
       text: >-
-        Therapeutic Horseback Riding is the use of horses in equine-assisted activities. Horseback riding provides many benefits. The movement of the horse activates a variety of sensory imputs including: vestibular, proprioceptive, tactile, visual, auditory, and olfactory! Horseback riding helps with balance, strength, postural control, speech/communication and cognition. The Therapeutic Horseback Riding program is supervised by an Illinois State Board Learning Behavior Specialist and PATH Certified Therapeutic Riding Instructor.
+        Equine-Assisted Learning (EAL) is an experiential learning approach that
+        promotes the
+
+        development of life skills for educational, professional and personal
+        goals through equine assisted activities (PATH International
+        definition).
     - image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
       text: >-
         Sojourn TRC serves all ages, from children as young as 2 and adults to
@@ -38,3 +43,4 @@ intro:
         trust and friendship. To learn more about Sojourn TRC and how we might
         benefit you or a loved one, please contact us.
 ---
+
