@@ -8,7 +8,8 @@ export const CalendarPageTemplate = ({
   title,
   calendarBlurb,
   calendarPicture,
-  calendarLink,
+  block1,
+  block2,
 }) => {
   return (
     <div className="container">
@@ -22,14 +23,16 @@ export const CalendarPageTemplate = ({
               {calendarBlurb}
             </h4>
           </div>
-          <div className="section">
+          <div style={{ justifyContent: 'center' }}>
             <PreviewCompatibleImage imageInfo={calendarPicture} />
-            <h1 className="title is-size-4 has-text-weight-bold is-bold-light">
-              <a href={calendarLink} target="_blank" rel="noopener noreferrer">
-                Calendar Link for Most Updated Calendar
-              </a>
-            </h1>
+            <a href={block1.publicURL}>
+              <h5 className="has-text-centered is-size-3">{block1.name}</h5>
+            </a>
+            <a href={block2.publicURL}>
+              <h5 className="has-text-centered is-size-3">{block2.name}</h5>
+            </a>
           </div>
+          <br />
         </div>
       </div>
     </div>
@@ -41,6 +44,8 @@ CalendarPageTemplate.propTypes = {
   calendarBlurb: PropTypes.string,
   calendarPicture: PropTypes.oneOf([PropTypes.string, PropTypes.object]),
   calendarLink: PropTypes.string,
+  block1: PropTypes.string,
+  block2: PropTypes.string,
 };
 
 const CalendarPage = ({ data }) => {
@@ -53,6 +58,8 @@ const CalendarPage = ({ data }) => {
         calendarBlurb={fm.calendarBlurb}
         calendarPicture={fm.calendarPicture}
         calendarLink={fm.calendarLink}
+        block1={fm.block1}
+        block2={fm.block2}
       />
     </Layout>
   );
@@ -77,7 +84,16 @@ export const calendarPageQuery = graphql`
             }
           }
         }
-        calendarLink
+        block1 {
+          name
+          extension
+          publicURL
+        }
+        block2 {
+          name
+          extension
+          publicURL
+        }
       }
     }
   }

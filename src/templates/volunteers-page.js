@@ -66,13 +66,13 @@ export const VolunteerPageTemplate = ({
                   </a>
                 </div>
                 <div className="column has-text-centered is-one-third">
-                  <a href={handbook} download="Sojourn_Volunteer_Handbook.pdf">
+                  <a href={handbook.publicURL} download={handbook.name}>
                     <img src={pdfdownload} alt="pdf download" />
                     <h5>Download Volunteer Handbook</h5>
                   </a>
                 </div>
                 <div className="column has-text-centered is-one-third">
-                  <a href={release} download="Sojourn_Volunteer_Release.pdf">
+                  <a href={release.publicURL} download={release.name}>
                     <img src={pdfdownload} alt="pdf download" />
                     <h5>Download Release Form</h5>
                   </a>
@@ -92,23 +92,23 @@ VolunteerPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   maintext: PropTypes.string.isRequired,
   lefttitle: PropTypes.string.isRequired,
-  handbook: PropTypes.string.isRequired,
-  release: PropTypes.string.isRequired,
+  handbook: PropTypes.string,
+  release: PropTypes.string,
 };
 
 const VolunteersPage = ({ data }) => {
-  const { markdownRemark: md } = data;
+  const { frontmatter: fm } = data.markdownRemark;
 
   return (
     <Layout>
       <VolunteerPageTemplate
-        title={md.frontmatter.title}
-        image={md.frontmatter.image}
-        maintext={md.frontmatter.maintext}
-        lefttitle={md.frontmatter.lefttitle}
-        leftlist={md.frontmatter.leftlist}
-        handbook="/img/Volunteer_Handbook.pdf"
-        release="/img/Volunteer_Release.pdf"
+        title={fm.title}
+        image={fm.image}
+        maintext={fm.maintext}
+        lefttitle={fm.lefttitle}
+        leftlist={fm.leftlist}
+        handbook={fm.handbook}
+        release={fm.release}
       />
     </Layout>
   );
@@ -123,7 +123,6 @@ export default VolunteersPage;
 export const volunteerPageQuery = graphql`
   query VolunteersPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
         image {
@@ -137,6 +136,16 @@ export const volunteerPageQuery = graphql`
         lefttitle
         leftlist {
           text
+        }
+        handbook {
+          name
+          extension
+          publicURL
+        }
+        release {
+          name
+          extension
+          publicURL
         }
       }
     }

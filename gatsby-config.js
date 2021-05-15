@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sojourn TRC',
     description:
-      'Sojourn TRC is a Therapeutic Riding Center focusing on using equine assisted activities to proactively contribute to an individual\'s cognitive, physical, emotional and social well being. Services we provide: Therapeutic riding preschool prereading equine assisted learning corporate retreat learning opportunities .',
+      "Sojourn TRC is a Therapeutic Riding Center focusing on using equine assisted activities to proactively contribute to an individual's cognitive, physical, emotional and social well being. Services we provide: Therapeutic riding preschool prereading equine assisted learning corporate retreat learning opportunities .",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +13,13 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: 'uploads',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/docs`,
+        name: 'docs',
       },
     },
     {
@@ -74,4 +81,4 @@ module.exports = {
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-}
+};
