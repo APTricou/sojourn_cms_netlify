@@ -227,6 +227,28 @@ collections:
           - { label: blurb, name: calendarBlurb, widget: string }
           - { label: Picture, name: calendarPicture, widget: picture }
           - { label: Link, name: calendarLink, widget: string }
-      # - file: 'src/pages/services/index.md'
+      - file: 'src/pages/volunteers/index.md'
+        label: 'Volunteers Page'
+        name: 'volunteer'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'volunteers-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: picture }
+          - { label: List Title, name: lefttitle, widget: string }
+          - { label: Link, name: calendarLink, widget: string }
+          - {
+              label: List Contents,
+              name: leftlist,
+              widget: list,
+              fields: [{ label: Text, name: text, widget: text }],
+            }
+          - { label: Main Text, name: maintext, widget: string }
+          - { label: Volunteer Handbook, name: handbook, widget: file }
+          - { label: Volunteer Release, name: release, widget: file }
       # - file: 'src/pages/services/index.md'
       # - file: 'src/pages/services/index.md'
