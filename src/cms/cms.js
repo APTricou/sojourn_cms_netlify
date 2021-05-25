@@ -8,8 +8,8 @@ import ServicesPagePreview from './preview-templates/ServicesPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
 import VolunteersPagePreview from './preview-templates/VolunteersPagePreview';
 
-// CMS.registerMediaLibrary(uploadcare);
-// CMS.registerMediaLibrary(cloudinary);
+CMS.registerMediaLibrary(uploadcare);
+CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('about', AboutPagePreview);
