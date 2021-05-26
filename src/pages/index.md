@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 'Sojourn Therapeutic Riding Center, NFP'
-image: /img/20210118_091911.jpg
+image: /img/Sojourn Barn in winter.jpg
 heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
 mainpitch:
