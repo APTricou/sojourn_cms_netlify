@@ -72,7 +72,7 @@ export const horsesPageQuery = graphql`
         horses {
           image {
             childImageSharp {
-              fluid(maxWidth: 100, quality: 64) {
+              fluid(maxWidth: 200, quality: 64) {
                 ...GatsbyImageSharpFluid
               }
             }

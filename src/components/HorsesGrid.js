@@ -9,9 +9,12 @@ const HorsesGrid = ({ gridItems }) => (
         <section
           style={{
             width: '230px',
-            height: '120px',
+            height: '400px',
             border: '1px black solid',
             padding: '15px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-around',
           }}
         >
           <div className="has-text-centered">
@@ -21,10 +24,13 @@ const HorsesGrid = ({ gridItems }) => (
                 display: 'inline-block',
               }}
             >
-              <PreviewCompatibleImage imageInfo={item} />
+              <PreviewCompatibleImage
+                imageInfo={item}
+                styling={{ maxHeight: '350px' }}
+              />
             </div>
           </div>
-          <p className="has-text-centered">{item.text}</p>
+          <p className="has-text-centered has-text-weight-bold">{item.text}</p>
         </section>
       </div>
     ))}

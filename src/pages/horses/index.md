@@ -7,26 +7,26 @@ aboutBlurb: >-
 
   We also have boarded horses on site. If interested in boarding your horse at our facility, contact us.
 horses:
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Scootch being nosy.jpg
     text: Scootch
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Eli 20201014_115121 (2).jpg
     text: Eli
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Duncan 104025605_10207488596169022_8770589850927103234_n.jpg
     text: Duncan
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/gypsy.jpg
     text: Gypsy
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Scout.jpg
     text: Scout
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Chance up clos.jpg
     text: Chance
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Remmi Fabio.jpg
     text: Remmi
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Blue grazing 20210331_163012.jpeg
     text: Blue
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Odin.jpg
     text: Odin
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
+  - image: /img/Hook 183744578_3574513709319366_1694022061484147151_n.jpeg
     text: Hook
-  - image: /img/51043305_1751243164979772_4047409594421477376_o.jpg
-    text: Britney
+  - image: /img/Brittany in pasture.jpg
+    text: Brittany
 ---

@@ -36,11 +36,10 @@ intro:
         Looking to help out? Check out our volunteer page. Sojourn is always
         grateful for volunteers donating their time and service to a great
         cause. Volunteers are the backbone of our programs!
-    - image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
+    - image: /img/64866659_1961732010597552_1406245448888352768_o.jpg
       text: >-
         Sojourn TRC believes in the power of the horse. Working with and around
         these sentient beings cultivates deep relationships, personal growth,
         trust, and friendship. To learn more about Sojourn TRC and how we might
         benefit you or a loved one, please contact us.
 ---
-
