@@ -3,25 +3,24 @@ import { Link } from 'gatsby';
 
 import logo from '../img/logo.png';
 import facebook from '../img/social/facebook.svg';
-import instagram from '../img/social/instagram.svg';
-import twitter from '../img/social/twitter.svg';
-import vimeo from '../img/social/vimeo.svg';
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Sojourn"
-            style={{ width: '18em', height: '10em' }}
-          />
+          <a href="/">
+            <img
+              src={logo}
+              alt="Sojourn"
+              style={{ width: '18em', height: 'auto' }}
+            />
+          </a>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
+            <div className="columns" style={{ maxWidth: '100vw' }}>
+              <div className="column">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -57,7 +56,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column">
                 <section>
                   <ul className="menu-list">
                     <li>
@@ -93,7 +92,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column social">
                 <a
                   title="facebook"
                   href="https://www.facebook.com/SojournTherapeuticRidingCenter/"

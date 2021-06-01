@@ -58,7 +58,7 @@ export const VolunteerPageTemplate = ({
               }}
             >
               <h3 className="has-text-weight-semibold is-size-5">{maintext}</h3>
-              <div className="columns is-mobile">
+              <div className="columns">
                 <div className="column has-text-centered is-one-third">
                   <a href="mailto:info@sojourntrc.org">
                     <img src={email} alt="email" />

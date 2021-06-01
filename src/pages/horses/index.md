@@ -3,7 +3,7 @@ templateKey: horses-page
 title: Sojourn Horses
 aboutTitle: About Our Horses
 aboutBlurb: >-
-  Our horses are chosen specifically for their gentle and freindly nature and they are well trained to handle a wide variety of riders.
+  Our horses are chosen specifically for their gentle and friendly nature and they are well trained to handle a wide variety of riders.
 
   We also have boarded horses on site. If interested in boarding your horse at our facility, contact us.
 horses:

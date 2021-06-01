@@ -33,6 +33,38 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+    <section className="section" style={{ display: 'block' }}>
+      <div
+        className="section"
+        style={{
+          background: '#0007a6',
+          width: '100%',
+        }}
+      >
+        <div className="columns">
+          <div className="column">
+            <h1 className="title whitetext">Upcoming Fundraiser</h1>
+            <p className="whitetext">
+              Check out our upcoming fundraiser with Pampered Chef! Sojourn is
+              grateful for any and all contributions.
+            </p>
+            <a href="/">
+              <h3 className="subtitle whitetext">Pampered Chef Info</h3>
+            </a>
+          </div>
+          <div
+            className="column"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <img src="/img/Pampered_Chef_logo.jpeg" alt="pampered chef logo" />
+          </div>
+        </div>
+      </div>
+    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
