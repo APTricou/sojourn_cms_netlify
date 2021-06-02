@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
               Check out our upcoming fundraiser with Pampered Chef! Sojourn is
               grateful for any and all contributions.
             </p>
-            <a href="/">
+            <a href="/img/Pampered_Chef.pdf" download>
               <h3 className="subtitle whitetext">Pampered Chef Info</h3>
             </a>
           </div>

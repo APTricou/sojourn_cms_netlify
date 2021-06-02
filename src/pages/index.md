@@ -4,6 +4,14 @@ title: 'Sojourn Therapeutic Riding Center, NFP'
 image: /img/Sojourn Barn in winter.jpg
 heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
+eventsActive: true
+events:
+  - title: Pampered Chef Fundraiser
+    text: >-
+      Check out our upcoming fundraiser with Pampered Chef! Sojourn is grateful for any and all contributions.
+    document: /img/Pampered_Chef.pdf
+    link: https://www.pamperedchef.com/party/sojourntrcfundraiser
+    picture: /img/Pampered_Chef_logo.jpeg
 mainpitch:
   title: Who is Sojourn?
   description: >-
