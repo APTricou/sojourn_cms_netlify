@@ -5,7 +5,6 @@ import Img from 'gatsby-image';
 const PreviewCompatibleImage = ({ imageInfo, styling = {} }) => {
   const imageStyle = { ...styling, borderRadius: '5px' };
   const { alt = '', childImageSharp, image } = imageInfo;
-
   if (!!image && !!image.childImageSharp) {
     return (
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
@@ -26,7 +25,7 @@ PreviewCompatibleImage.propTypes = {
   imageInfo: PropTypes.shape({
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
-    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     style: PropTypes.object,
   }).isRequired,
 };

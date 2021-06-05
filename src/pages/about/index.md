@@ -5,7 +5,20 @@ text: >-
   We, at Sojourn use equine assisted activities to proactively contribute to an individual's cognitive, physical, emotional, and social well being. Therapeutic riding benefits individuals in the areas of therapy, education, sport, and leisure. The experiences we have seen at Sojourn has enriched not only our clients lives, but our own.
 founder: Barbara Mulry
 founderImage: /img/Barbara_Mulry.jpg
-founderText: Special Education and Reading Specialist teacher with a passion for horses. Barbara started Sojourn in 2009 with two horses, the one pictured above Blackie, a retired Medieval Times show horse. Since then the fleet has grown to 10 horses, has moved into a brand new facility, and has grown into a wonderful community of people helping people.
+founderText: >-
+  Sojourn TRC’s Founder and CEO has a long history working with individuals with special needs, beginning with her older sibling, Joseph. Joe had a huge impact and was the reason why Barbara, early on at the age of 10, wanted to pursue a career in special education. Barbara’s credentials/licensures include:
+  Learning Behavior Specialist 1: Pre-Kindergarten through Age 21
+  Learning Disabilities: Pre-Kindergarten through Age 21
+  Secondary Education Grade 6 through Grade 12
+  Reading Specialist: Kindergarten through Grade 12
+  Barbara has her B.S.Ed. in Special Education and her M.A. in Reading Specialist  
+
+  Additionally, Barbara has taught in higher education for numerous years at Saint Xavier University School of Education and has travelled around the U.S. conducting staff developments in education for IRI Skylight, Simon and Schuster, and Pearson Education. Barbara also conducted staff development for the State of Illinois and travelled to many schools within the region to support teachers in their efforts to apply best practices in their classrooms. 
+
+  Barbara is most noted for her interest in research and research design. Much of her coursework focused on conducting and executing research in the classroom regarding best practices in the areas of academic achievement, social/emotional learning, and student motivation. She also taught methods classes and supervised student teachers who were embarking on careers in education.
+
+  Without a doubt, Barbara has a love for horses and understands their deep connection with humans. Horses, too, are sentient beings that have the ability to carry riders on their backs and provide exceptional rhythmic and sensory input. She began her journey into therapeutic riding services with her horses Blackie and Scootch. Sojourn’s horses now number eleven!
+
 boardOfDirectors: Board of Directors
 boardText: >-
   Of course the ship doesn't sail alone. We have a strong team of individuals dedicated to maintaining and growing the community that includes: Barbara Mulry, President; Tim Mulry, Treasurer; Daina Tricou, Member; John Tricou, Member; Patsey Reilly, Secretary

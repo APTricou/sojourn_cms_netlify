@@ -6,12 +6,17 @@ heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
 eventsActive: true
 events:
-  - title: Pampered Chef Fundraiser
-    text: >-
-      Check out our upcoming fundraiser with Pampered Chef! Sojourn is grateful for any and all contributions.
-    document: /img/Pampered_Chef.pdf
+  - title: Pampered Chef Event
+    text: Sojourn TRC is proud to partner with Pampered Chef. Please click here to benefit both your kitchen and Sojourn's programs. Thank you!
+    documents:
+      - url: /img/Pampered_Chef.pdf
     link: https://www.pamperedchef.com/party/sojourntrcfundraiser
-    picture: /img/Pampered_Chef_logo.jpeg
+    image: /img/Pampered_Chef_logo.jpg
+  - title: Summer Camp
+    text: Sojourn is offering two sessions of summer horse camp for different ages.  Check out our info pages - hope to see you there!
+    documents:
+      - url: /img/Summer horse camp 2021 elementary.pdf
+      - url: /img/Summer horse camp 2021 teen adult.pdf
 mainpitch:
   title: Who is Sojourn?
   description: >-
