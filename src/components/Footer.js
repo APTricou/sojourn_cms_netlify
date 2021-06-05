@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../img/logo_w_text_white.png';
+import logo from '../img/Logo_w_text_white.png';
 import facebook from '../img/social/facebook.svg';
 
 const Footer = class extends React.Component {
