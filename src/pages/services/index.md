@@ -59,6 +59,6 @@ main:
   image1:
     alt: A picture of a therapeutic riding lesson in progress
     image: /img/66522386_2000931140010972_3813641293368655872_o.jpg
-full_image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
+# full_image: /img/83083758_2345209118916504_5895494503896186880_o.jpg
 ---
 

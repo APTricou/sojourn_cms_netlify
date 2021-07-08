@@ -18,7 +18,17 @@ founderText: >-
   Barbara is most noted for her interest in research and research design. Much of her coursework focused on conducting and executing research in the classroom regarding best practices in the areas of academic achievement, social/emotional learning, and student motivation. She also taught methods classes and supervised student teachers who were embarking on careers in education.
 
   Without a doubt, Barbara has a love for horses and understands their deep connection with humans. Horses, too, are sentient beings that have the ability to carry riders on their backs and provide exceptional rhythmic and sensory input. She began her journey into therapeutic riding services with her horses Blackie and Scootch. Sojourn’s horses now number eleven!
-
+secondaryImage: /img/PR04301133067.jpeg
+secondaryText: >-
+  Horses are a lifelong learning experience for Barbara, who has never stopped schooling herself and her
+  horses in dressage. Currently, Barbara continues education with Ken Borden, Jr. (breeder, trainer,
+  clinician at Little Bit Farm) and has also schooled with Baron Julius Von Uhl (Von Uhl School of
+  Horsemanship), Brittany Kristoffersen (Kristoffersen Sporthorses) and Mario Contreras (Head Trainer
+  Medieval Times in Schaumburg; MC Training). Barbara schools with horses of all levels, and is currently
+  working with her semi-retired Grand Prix/Airs Above Ground horse, Hook. Additionally, Barbara is a
+  Certified Therapeutic Riding Instructor (CTRI) with the Professional Association of Therapeutic
+  Horsemanship International (PATH Intern’l).
+  According to Barbara, the trainers who are the best among the best are always the horses!
 boardOfDirectors: Board of Directors
 boardText: >-
   Of course the ship doesn't sail alone. We have a strong team of individuals dedicated to maintaining and growing the community that includes: Barbara Mulry, President; Tim Mulry, Treasurer; Daina Tricou, Member; John Tricou, Member; Patsey Reilly, Secretary

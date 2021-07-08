@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import EventBannerDocuments from './EventBannerDocuments';
 
 const EventBanner = ({ events }) => (
@@ -8,7 +8,7 @@ const EventBanner = ({ events }) => (
     <div className="columns">
       {events.map(event => (
         <div key={event.text} className="column">
-          <a href={event.link} download>
+          <a href={event.link || "/"}>
             <div
               className="columns"
               style={{
@@ -51,7 +51,7 @@ EventBanner.propTypes = {
       text: PropTypes.string,
       documents: PropTypes.array,
       link: PropTypes.string,
-      picture: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      // picture: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
   ),
 };

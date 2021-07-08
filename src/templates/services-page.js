@@ -12,7 +12,7 @@ export const ServicesPageTemplate = ({
   description,
   intro,
   main,
-  fullImage,
+  // fullImage,
 }) => (
   <div>
     <div
@@ -65,7 +65,7 @@ export const ServicesPageTemplate = ({
         </div>
       </div>
     </section>
-    <div
+    {/* <div
       className="full-width-image-fixed"
       style={{
         backgroundImage: `url(${
@@ -74,7 +74,7 @@ export const ServicesPageTemplate = ({
             : fullImage
         })`,
       }}
-    />
+    /> */}
   </div>
 );
 
@@ -91,7 +91,7 @@ ServicesPageTemplate.propTypes = {
     description: PropTypes.string,
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  // fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const ServicesPage = ({ data }) => {
@@ -106,7 +106,7 @@ const ServicesPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
-        fullImage={frontmatter.full_image}
+        // fullImage={frontmatter.full_image}
       />
     </Layout>
   );
@@ -159,13 +159,6 @@ export const servicesPageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
-            }
-          }
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
             }
           }
         }

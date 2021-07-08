@@ -10,6 +10,8 @@ export const AboutPageTemplate = ({
   founder,
   founderImage,
   founderText,
+  secondaryImage,
+  secondaryText,
   boardOfDirectors,
   boardText,
   volunteers,
@@ -38,6 +40,14 @@ export const AboutPageTemplate = ({
                   <p className=" is-size-5">{founderText}</p>
                 </div>
               </div>
+              <div className="section columns">
+                <div className="column is-5">
+                  <PreviewCompatibleImage imageInfo={secondaryImage} />
+                </div>
+                <div className="column">
+                  <p className=" is-size-5">{secondaryText}</p>
+                </div>
+              </div>
               <div>
                 <h1>{boardOfDirectors}</h1>
                 <div className="section">
@@ -63,6 +73,8 @@ AboutPageTemplate.propTypes = {
   founder: PropTypes.string,
   founderImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   founderText: PropTypes.string,
+  secondaryImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  secondaryText:PropTypes.string,
   boardOfDirectors: PropTypes.string,
   boardText: PropTypes.string,
   volunteers: PropTypes.string,
@@ -81,6 +93,8 @@ const AboutPage = ({ data }) => {
         founder={frontmatter.founder}
         founderImage={frontmatter.founderImage}
         founderText={frontmatter.founderText}
+        secondaryImage={frontmatter.secondaryImage}
+        secondaryText={frontmatter.secondaryText}
         boardOfDirectors={frontmatter.boardOfDirectors}
         boardText={frontmatter.boardText}
         volunteers={frontmatter.volunteers}
@@ -116,6 +130,14 @@ export const aboutPageQuery = graphql`
           }
         }
         founderText
+        secondaryImage {
+          childImageSharp {
+            fluid(maxWidth: 256, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        secondaryText
         boardOfDirectors
         boardText
         volunteers
