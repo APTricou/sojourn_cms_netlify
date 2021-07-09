@@ -47,6 +47,22 @@ export const ServicesPageTemplate = ({
                     {main.heading}
                   </h3>
                   <p>{main.description}</p>
+                  <a href="/contact">
+                    <div
+                      href="/contact"
+                      className="is-size-5"
+                      style={{
+                        background: '#0007a6',
+                        margin: '1rem auto',
+                        padding: '1rem 0',
+                        borderRadius: '15px',
+                        width: '20rem',
+                        color: 'white',
+                      }}
+                      >
+                      Get in Touch with Us
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className="tile is-ancestor">
@@ -65,16 +81,6 @@ export const ServicesPageTemplate = ({
         </div>
       </div>
     </section>
-    {/* <div
-      className="full-width-image-fixed"
-      style={{
-        backgroundImage: `url(${
-          fullImage.childImageSharp
-            ? fullImage.childImageSharp.fluid.src
-            : fullImage
-        })`,
-      }}
-    /> */}
   </div>
 );
 

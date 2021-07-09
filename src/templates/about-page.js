@@ -18,8 +18,6 @@ export const AboutPageTemplate = ({
   volunteersimage,
   volunteerstext,
 }) => {
-  console.log(founderImage);
-  console.log(volunteersimage);
 
   return (
     <section className="section section--gradient">

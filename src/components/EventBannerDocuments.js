@@ -10,7 +10,6 @@ const EventBannerDocuments = ({ documents }) => {
         style={{ display: 'flex', justifyContent: 'space-around' }}
       >
         {documents.map(document => {
-          console.log(document);
           return (
             <div className="has-text-centered" style={{ maxWidth: '10rem' }}>
               <a href={document.url.publicURL} download={document.url.name}>
