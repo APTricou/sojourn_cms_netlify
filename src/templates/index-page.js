@@ -147,13 +147,6 @@ export const pageQuery = graphql`
         events {
           title
           text
-          documents {
-            url {
-              name
-              extension
-              publicURL
-            }
-          }
           link
         }
         mainpitch {

@@ -25,10 +25,10 @@ export const CalendarPageTemplate = ({
           </div>
           <div style={{ justifyContent: 'center' }}>
             <PreviewCompatibleImage imageInfo={calendarPicture} />
-            <a href={block1.publicURL}>
+            <a href={block1.publicURL} target="_blank" rel="noopener noreferrer">
               <h5 className="has-text-centered is-size-3">{block1.name}</h5>
             </a>
-            <a href={block2.publicURL}>
+            <a href={block2.publicURL} target="_blank" rel="noopener noreferrer">
               <h5 className="has-text-centered is-size-3">{block2.name}</h5>
             </a>
           </div>

@@ -6,12 +6,12 @@ heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
 eventsActive: true
 events:
-  - title: Summer Camp
-    text: Sojourn is offering two sessions of summer horse camp for different ages.  Check out our info pages - hope to see you there!
-    link: /services
-    documents:
-      - url: /img/Summer horse camp 2021 elementary.pdf
-      - url: /img/Summer horse camp 2021 teen adult.pdf
+  - title: White Sox Raffle
+    text: Sojourn is conducting a raffle for the White Sox vs KC Royals game on August 3rd. Click Here for Details!
+    link: https://go.rallyup.com/5edf74
+    # documents:
+    #   - url: /img/Summer horse camp 2021 elementary.pdf
+    #   - url: /img/Summer horse camp 2021 teen adult.pdf
   # - title: Pampered Chef Event
   #   text: Sojourn TRC is proud to partner with Pampered Chef. Please click here to benefit both your kitchen and Sojourn's programs. Thank you!
   #   documents:
