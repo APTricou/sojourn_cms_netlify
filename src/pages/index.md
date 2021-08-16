@@ -7,8 +7,8 @@ subheading: 'Accredited Riding Center in Frankfort, IL'
 eventsActive: true
 events:
   - title: White Sox Raffle
-    text: Sojourn is conducting a raffle for the White Sox vs KC Royals game on August 3rd. Click Here for Details!
-    link: https://go.rallyup.com/5edf74
+    text: Thanks to everyone for participating. 460 dollars total raised. Congratulations to Kevin McCormick for winning!
+    # link: https://go.rallyup.com/5edf74
     # documents:
     #   - url: /img/Summer horse camp 2021 elementary.pdf
     #   - url: /img/Summer horse camp 2021 teen adult.pdf
