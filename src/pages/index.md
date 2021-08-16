@@ -8,7 +8,7 @@ eventsActive: true
 events:
   - title: White Sox Raffle
     text: Thanks to everyone for participating. 460 dollars total raised. Congratulations to Kevin McCormick for winning!
-    # link: https://go.rallyup.com/5edf74
+    link: https://go.rallyup.com/5edf74
     # documents:
     #   - url: /img/Summer horse camp 2021 elementary.pdf
     #   - url: /img/Summer horse camp 2021 teen adult.pdf
