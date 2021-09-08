@@ -4,7 +4,7 @@ title: 'Sojourn Therapeutic Riding Center, NFP'
 image: /img/Sojourn Barn in winter.jpg
 heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
-eventsActive: true
+eventsActive: false
 events:
   - title: White Sox Raffle
     text: Thanks to everyone for participating. 460 dollars total raised. Congratulations to Kevin McCormick for winning!
