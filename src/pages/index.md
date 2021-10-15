@@ -4,11 +4,11 @@ title: 'Sojourn Therapeutic Riding Center, NFP'
 image: /img/Sojourn Barn in winter.jpg
 heading: Equine Assisted Activities
 subheading: 'Accredited Riding Center in Frankfort, IL'
-eventsActive: false
+eventsActive: True
 events:
-  - title: White Sox Raffle
-    text: Thanks to everyone for participating. 460 dollars total raised. Congratulations to Kevin McCormick for winning!
-    link: https://go.rallyup.com/5edf74
+  - title: Space for Rent
+    text: Sojourn TRC is actively looking to rent space to a family/child psychologist(s). Click here to find out more.
+    link: https://interiorinsight.com/24861-S-88th-Ave/idx
     # documents:
     #   - url: /img/Summer horse camp 2021 elementary.pdf
     #   - url: /img/Summer horse camp 2021 teen adult.pdf

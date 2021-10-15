@@ -8,18 +8,18 @@ const EventBanner = ({ events }) => (
     <div className="columns">
       {events.map(event => (
         <div key={event.text} className="column">
-          <a href={event.link || "/"} target="_blank" rel="noopener noreferrer">
+          <a href={event.link || '/'} target="_blank" rel="noopener noreferrer">
             <div
               className="columns"
               style={{
                 background: '#0007a6',
-                margin: '10px 60px',
+                margin: '5px 5px',
                 borderRadius: '15px',
               }}
             >
               <div className="column">
                 <h1 className="title whitetext">{event.title}</h1>
-                <p className="whitetext">{event.text}</p>
+                <p className="subtitle whitetext">{event.text}</p>
               </div>
               {/* {!!event.image ? (
                 <div
